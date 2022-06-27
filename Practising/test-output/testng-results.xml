@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-09T00:23:43 IST" name="practicesuite" finished-at="2022-06-09T00:25:16 IST" duration-ms="93022">
+    <groups>
+    </groups>
+    <test started-at="2022-06-09T00:23:43 IST" name="testPractice" finished-at="2022-06-09T00:25:16 IST" duration-ms="93022">
+      <class name="FrameworkPractise.DataDrivenFrameworkTest">
+        <test-method signature="jiralogin1(java.lang.String,java.lang.String)[pri:0, instance:FrameworkPractise.DataDrivenFrameworkTest@55536d9e]" started-at="2022-06-09T00:23:43 IST" name="jiralogin1" data-provider="jiratest" finished-at="2022-06-09T00:24:49 IST" duration-ms="65932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pvelusam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prvn@31031997]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jiralogin1 -->
+        <test-method signature="jiralogin1(java.lang.String,java.lang.String)[pri:0, instance:FrameworkPractise.DataDrivenFrameworkTest@55536d9e]" started-at="2022-06-09T00:24:49 IST" name="jiralogin1" data-provider="jiratest" finished-at="2022-06-09T00:25:16 IST" duration-ms="27019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kthayuma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kannagi!004]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jiralogin1 -->
+      </class> <!-- FrameworkPractise.DataDrivenFrameworkTest -->
+    </test> <!-- testPractice -->
+  </suite> <!-- practicesuite -->
+</testng-results>

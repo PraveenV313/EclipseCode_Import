@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="practicesuite">
+<listeners>
+<listener class-name="FrameworkPractise.DataDrivenFrameworkTest"></listener>
+</listeners>
+<test name ="testPractice">
+
+<!-- //<parameter name="username" value ="pvelusam"></parameter>
+//<parameter name="password" value="Prvn@31031997"></parameter> -->
+
+<classes>
+<class name = "FrameworkPractise.DataDrivenFrameworkTest"></class>
+</classes>
+
+</test>
+
+
+</suite>
