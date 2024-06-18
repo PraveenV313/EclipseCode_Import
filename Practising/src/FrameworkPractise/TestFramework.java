@@ -36,8 +36,8 @@ public class TestFramework {
 		tempoclick.click();
 		WebElement selectdropdown = driver.findElement(By.id("timesheet-mlink_lnk"));
 		selectdropdown.click();
-		//Select dropdowntempo = new Select(selectdropdown);
-		//dropdowntempo.selectByIndex(0);
+		Select dropdowntempo = new Select(selectdropdown);
+		dropdowntempo.selectByIndex(0);
 		
 	}
 		
